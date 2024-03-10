@@ -1,0 +1,1684 @@
+Build Plutonium T4 Singleplayer (r3904)
+logfile opened on 03/09/24 23:44:36 -0500
+map_rotate...
+
+"sv_mapRotation" is:"map theboxexperience"
+
+"sv_mapRotationCurrent" is:""
+
+Setting map: theboxexperience.
+g_gametype cmp is not a valid gametype, defaulting to dm
+Database: Assets Sync Started
+Database: Assets Sync Finished
+------ Server Initialization ------
+Server: theboxexperience
+Database: Assets Sync Started
+Database: Assets Sync Finished
+Database: Assets Sync Started
+Database: Assets Sync Finished
+Unloaded fastfile plutonium_ui
+PMem_Free( plutonium_ui, 0 )
+Loading fastfile localized_theboxexperience
+Database: Assets Sync Started
+Loading fastfile 'localized_theboxexperience'
+used 8.63 MB memory in DB alloc
+Database: Assets Sync Finished
+Loading fastfile theboxexperience_patch
+Database: Assets Sync Started
+Loading fastfile 'theboxexperience_patch'
+used 1.25 MB memory in DB alloc
+Database: Assets Sync Finished
+Loading fastfile theboxexperience
+Loading fastfile 'theboxexperience'
+used 61.68 MB memory in DB alloc
+Waited 302 msec for asset 'maps/theboxexperience.d3dbsp' of type 'col_map_mp'.
+----------------------
+Game: G_SetupWeaponDef
+----------------------
+animscripts/traverse/wall_hop_zombieLoading script scripts/sp/callbacks.gsc...
+Script scripts/sp/callbacks.gsc loaded successfully.
+Loading script scripts/sp/zm_spawn_fix.gsc...
+Script scripts/sp/zm_spawn_fix.gsc loaded successfully.
+Error: Could not load xanim "ai_flamethrower_crouch_pain".
+Error: Could not load xanim "ai_flamethrower_stand_pain".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_leg".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_head".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_chest".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_arm".
+Error: Could not load xanim "ai_bonzai_buddy_fail_rear".
+Error: Could not load xanim "ai_bonzai_buddy_fail_front".
+Error: Could not load xanim "ai_bonzai_enemy_fail_rear".
+Error: Could not load xanim "ai_bonzai_enemy_fail_right".
+Error: Could not load xanim "ai_bonzai_enemy_fail_left".
+Error: Could not load xanim "ai_bonzai_enemy_fail_front".
+Error: Could not load xanim "ai_flamethrower_crouch_death".
+Error: Could not load xanim "ai_flamethrower_stand_death".
+Error: Could not load xanim "ai_flamethrower_death_b".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_success".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_fail".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_intro".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_impact".
+Error: Could not load xanim "ai_bonzai_enemy_success_rear".
+Error: Could not load xanim "ai_bonzai_enemy_success_front".
+Error: Could not load xanim "ai_bonzai_buddy_success_rear".
+Error: Could not load xanim "ai_bonzai_buddy_success_right".
+Error: Could not load xanim "ai_bonzai_buddy_success_left".
+Error: Could not load xanim "ai_bonzai_buddy_success_front".
+Error: Could not load xanim "ai_flamethrower_stand_2_crouch".
+Error: Could not load xanim "ai_flamethrower_crouch_2_stand".
+Error: Could not load xanim "ai_flamethrower_crouch_turn90r".
+Error: Could not load xanim "ai_flamethrower_crouch_turn90l".
+Error: Could not load xanim "ai_flamethrower_turn180".
+Error: Could not load xanim "ai_flamethrower_turn135r".
+Error: Could not load xanim "ai_flamethrower_turn135l".
+Error: Could not load xanim "ai_flamethrower_turn90r".
+Error: Could not load xanim "ai_flamethrower_turn90l".
+Error: Could not load xanim "ai_flamethrower_turn45r".
+Error: Could not load xanim "ai_flamethrower_turn45l".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_5".
+Error: Could not load xanim "ai_flamethrower_aim_5".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_a_alert_v1".
+Error: Could not load xanim "ai_flamethrower_stand_idle_alert_v1".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_8".
+Error: Could not load xanim "ai_flamethrower_aim_8".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_2".
+Error: Could not load xanim "ai_flamethrower_aim_2".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_6".
+Error: Could not load xanim "ai_flamethrower_aim_6".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_4".
+Error: Could not load xanim "ai_flamethrower_aim_4".
+Error: Could not load xanim "ai_mg_shoulder_run".
+Error: Could not load xanim "ai_bonzai_sprint_d".
+Error: Could not load xanim "ai_bonzai_sprint_c".
+Error: Could not load xanim "ai_bonzai_sprint_b".
+Error: Could not load xanim "ai_bonzai_sprint_a".
+Error: Could not load xanim "ai_flamethrower_combatrun_c".
+Error: Could not load xanim "ai_flamethrower_crouch_twitch".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_b".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_a".
+Error: Could not load xanim "ai_flamethrower_stand_twitch".
+Error: Could not load xanim "ai_flamethrower_stand_idle_casual_v1".
+Error: Could not load xanim "ai_mg_shoulder_run2crouch".
+Error: Could not load xanim "ai_mg_shoulder_crouch_idle".
+Error: Could not load xanim "ai_mg_shoulder_run2stand".
+Error: Could not load xanim "ai_mg_shoulder_stand_idle".
+Error: Could not load xanim "ai_flame_crouch_fire_center".
+Error: Could not load xanim "ai_flame_fire_center".
+Error: Could not load xanim "void_loop".
+Error: Could not load xanim "int_bonzai_attack_player_success".
+Error: Could not load xanim "int_bonzai_attack_player_fail".
+Error: Could not load xanim "int_bonzai_attack_player_intro".
+Error: Could not load xanim "int_bonzai_attack_player".
+Error: Could not load xanim "int_bonzai_attack_player_impact".
+Error: Could not load xanim "zombie_dog_run_pain_front".
+Error: Could not load xanim "zombie_dog_pain_hit_right".
+Error: Could not load xanim "zombie_dog_pain_hit_left".
+Error: Could not load xanim "zombie_dog_pain_hit_back".
+Error: Could not load xanim "german_shepard_run_pain_hit_front".
+Error: Could not load xanim "german_shepard_pain_hit_right".
+Error: Could not load xanim "german_shepard_pain_hit_left".
+Error: Could not load xanim "german_shepard_pain_hit_back".
+Error: Could not load xanim "german_shepard_pain_hit_front".
+Error: Could not load xanim "german_shepherd_walk".
+Error: Could not load xanim "german_shepherd_traverse_up_80".
+Error: Could not load xanim "german_shepherd_traverse_up_40".
+Error: Could not load xanim "german_shepherd_traverse_down_40".
+Error: Could not load xanim "german_shepherd_attack_player_miss_turnl".
+Error: Could not load xanim "german_shepherd_attack_player_miss_turnr".
+Error: Could not load xanim "german_shepherd_attack_ai_01_start_a".
+Error: Could not load xanim "german_shepherd_run_stop".
+Error: Could not load xanim "german_shepherd_run_jump_window_40".
+Error: Could not load xanim "german_shepherd_run_jump_40".
+Error: Could not load xanim "german_shepherd_run_attack_miss".
+Error: Could not load xanim "german_shepherd_run_attack_low".
+Error: Could not load xanim "german_shepherd_run_attack".
+Error: Could not load xanim "german_shepard_run_turn_180_right".
+Error: Could not load xanim "german_shepard_run_turn_180_left".
+Error: Could not load xanim "german_shepard_run_turn_90_right".
+Error: Could not load xanim "german_shepard_run_turn_90_left".
+Error: Could not load xanim "german_shepard_turn_180_right".
+Error: Could not load xanim "german_shepard_turn_180_left".
+Error: Could not load xanim "german_shepard_turn_90_right".
+Error: Could not load xanim "german_shepard_turn_90_left".
+Error: Could not load xanim "german_shepherd_run_lean_r".
+Error: Could not load xanim "german_shepherd_run_lean_l".
+Error: Could not load xanim "german_shepherd_run".
+Error: Could not load xanim "german_shepherd_run_start".
+Error: Could not load xanim "german_shepherd_attackidle_growl".
+Error: Could not load xanim "german_shepherd_attackidle_bark".
+Error: Could not load xanim "german_shepherd_attackidle".
+Error: Could not load xanim "german_shepherd_idle".
+Error: Could not load xanim "german_shepherd_attack_player_late".
+Error: Could not load xanim "german_shepherd_attack_look_up".
+Error: Could not load xanim "german_shepherd_look_up".
+Error: Could not load xanim "german_shepherd_attack_look_left".
+Error: Could not load xanim "german_shepherd_look_left".
+Error: Could not load xanim "german_shepherd_attack_look_right".
+Error: Could not load xanim "german_shepherd_look_right".
+Error: Could not load xanim "german_shepherd_attack_look_down".
+Error: Could not load xanim "german_shepherd_look_down".
+Error: Could not load xanim "p_makinraid_hatch".
+Error: Could not load xanim "crew_sherman_passenger9_combatidle_player".
+Error: Could not load xanim "crew_sherman_passenger8_combatidle_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character9_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character5_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character4_player".
+Error: Could not load xanim "p_flak1_tag2_idle".
+Error: Could not load xanim "pb_prone_crawl_right_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_left_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_back_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_hold_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_right_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_left_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_back_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_satchel".
+Error: Could not load xanim "pb_hold_run_left_satchel".
+Error: Could not load xanim "pb_hold_run_right_satchel".
+Error: Could not load xanim "pb_hold_run_back_satchel".
+Error: Could not load xanim "pb_hold_run_satchel".
+Error: Could not load xanim "pb_sprint_hold_satchel".
+Error: Could not load xanim "pb_crouch_hold_idle_satchel".
+Error: Could not load xanim "pb_hold_idle_satchel".
+Error: Could not load xanim "pb_prone_hold_satchel".
+Error: Could not load xanim "pt_hold_prone_throw_satchel".
+Error: Could not load xanim "pt_hold_throw_satchel".
+ERROR: Pathnode (Path) at (-672 160 16) is in solid
+ERROR: Pathnode (Path) at (-1040 -288 -2224) is in solid
+------- Game Initialization -------
+gamename: Plutonium T4 Singleplayer (r3904)
+gamedate: Feb  6 2024
+Initializing game at 03/09/24 23:44:37 -0500
+Current uptime: 00:00:07
+-----------------------------------
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/electrocution.shock'
+Error: Could not load xmodel "zombie_zapper_cagelight_red".
+Error: Could not load xmodel "zombie_zapper_cagelight_green".
+Error: Could not load xmodel "lights_indlight_on".
+Error: Could not load xmodel "lights_milit_lamp_single_int_on".
+Error: Could not load xmodel "lights_tinhatlamp_on".
+Error: Could not load xmodel "lights_berlin_subway_hat_0".
+Error: Could not load xmodel "lights_berlin_subway_hat_50".
+Error: Could not load xmodel "lights_berlin_subway_hat_100".
+Error: Could not load xmodel "collision_geo_32x32x128".
+fraggrenade: WEAPON_FRAGGRENADE
+Error: Could not load rawfile "shock/zombie_death.shock".
+Error: couldn't open 'shock/zombie_death.shock'.
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/dog_bite.shock'
+'0' is not a valid value for dvar 'bg_shock_viewKickPeriod'
+  Domain is any number from 0.001 to 1000
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/tank_mantle.shock'
+'0' is not a valid value for dvar 'bg_shock_soundFadeInTime'
+  Domain is any number from 0.001 to 1000
+'0' is not a valid value for dvar 'bg_shock_soundFadeOutTime'
+  Domain is any number from 0.001 to 1000
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/chaplincheat.shock'
+napalmblob: WEAPON_SMOKE
+napalmbloblight: WEAPON_SMOKE
+syrette: WEAPON_SYRETTE
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/default.shock'
+mk2_frag: WEAPON_FRAGGRENADE
+stielhandgranate: WEAPON_FRAGGRENADE
+zombie_cymbal_monkey: PATCH_ZOMBIE_MONKEY
+zombie_bo2_perk_bottles: WEAPON_ZOMBIE_PERK_BOTTLE
+zombie_knuckle_crack: WEAPON_ZOMBIE_PERK_BOTTLE
+zombie_bowie_flourish: WEAPON_ZOMBIE_PERK_BOTTLE
+-----------------------------------
+Working directory: C:\gameserver\T4
+Controller #0 signed in locally
+CL_Live_StartPrivateParty() was called, calling Party_StopParty
+Calling Party_StopParty() on lobby
+Clearing migration data
+Huffman Took 1 Milliseconds
+Hitch warning: 7495 msec frame time
+Rcon from 127.0.0.1:54714:
+version
+Rcon from 127.0.0.1:60630:
+sv_running
+Rcon from 127.0.0.1:60631:
+sv_hostname
+Rcon from 127.0.0.1:60632:
+mapname
+Rcon from 127.0.0.1:60633:
+sv_maxclients
+Rcon from 127.0.0.1:60634:
+g_gametype
+Rcon from 127.0.0.1:60635:
+fs_basepath
+Rcon from 127.0.0.1:60636:
+fs_basegame
+Rcon from 127.0.0.1:60637:
+fs_localAppData
+Rcon from 127.0.0.1:60638:
+fs_game
+Rcon from 127.0.0.1:60640:
+g_log
+Rcon from 127.0.0.1:60641:
+g_logsync
+Rcon from 127.0.0.1:60642:
+net_ip
+Rcon from 127.0.0.1:60643:
+g_password
+Rcon from 127.0.0.1:60645:
+sv_privateClients
+Rcon from 127.0.0.1:60646:
+_website
+Rcon from 127.0.0.1:60647:
+set
+Rcon from 127.0.0.1:60648:
+sv_customcallbacks
+Rcon from 127.0.0.1:52244:
+status
+Rcon from 127.0.0.1:60548:
+say
+Rcon from 127.0.0.1:60549:
+sv_iw4madmin_integration_enabled
+Rcon from 127.0.0.1:60550:
+status
+Rcon from 127.0.0.1:54444:
+status
+Rcon from 127.0.0.1:58251:
+status
+Rcon from 127.0.0.1:58252:
+status
+Rcon from 127.0.0.1:55450:
+status
+Rcon from 127.0.0.1:64506:
+status
+Rcon from 127.0.0.1:64507:
+status
+User with id 1719429 successfully authenticated.
+Letting player with userid 1719429 into the server because the challenge verification completed successfully.
+SV_DirectConnect()
+Client 0 connecting with 147100 challenge ping from 192.168.1.254:28964
+Not a lan address!
+Got IV 155189248 from client!
+Decryption of auth ticket failed.Server: Set client 0 pbguid to 1719429
+Going from CS_FREE to CS_CONNECTED for  (num 0 guid 1719429)
+Received packet 0 of stats data
+Received packet 1 of stats data
+Received packet 2 of stats data
+Received packet 3 of stats data
+Received packet 4 of stats data
+Received packet 5 of stats data
+Received packet 6 of stats data
+SV_ClientNewClientState: newClientState 0 6
+kjuuki : dropped gamestate, resending
+SV_ExecuteClientMessage: serverId: 16, client serverId: 0
+SV_SendClientGameState() for kjuuki
+Going from CS_CONNECTED to CS_CLIENTLOADING for kjuuki
+--
+DynEnt_WriteGameState wrote 2 bytes
+--
+Sending 24149 bytes in gamestate to client: 0
+Rcon from 127.0.0.1:56158:
+status
+SV_ClientNewClientState: newClientState 0 9
+Going from CS_CLIENTLOADING to CS_ACTIVE for kjuuki
+Rcon from 127.0.0.1:62444:
+tell
+SV_ClientNewClientState: newClientState 0 10
+Rcon from 127.0.0.1:52517:
+status
+Rcon from 127.0.0.1:53491:
+say
+Rcon from 127.0.0.1:53492:
+say
+Rcon from 127.0.0.1:53493:
+tell
+Rcon from 127.0.0.1:53494:
+say
+Rcon from 127.0.0.1:58769:
+status
+Rcon from 127.0.0.1:58770:
+status
+Rcon from 127.0.0.1:58907:
+status
+Rcon from 127.0.0.1:65144:
+status
+Rcon from 127.0.0.1:65145:
+status
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+Rcon from 127.0.0.1:53821:
+status
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+^1AI (entity 494, origin -0.8 -1420.7 59.3) couldn't find path to goal.
+Rcon from 127.0.0.1:62299:
+status
+Rcon from 127.0.0.1:61355:
+status
+Error: Unable to set last round results for client num: 0
+map_rotate...
+
+"sv_mapRotation" is:"map theboxexperience"
+
+"sv_mapRotationCurrent" is:""
+
+Setting map: theboxexperience.
+g_gametype cmp is not a valid gametype, defaulting to dm
+Database: Assets Sync Started
+Database: Assets Sync Finished
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: theboxexperience
+Database: Assets Sync Started
+Database: Assets Sync Finished
+Database: Assets Sync Started
+Database: Assets Sync Finished
+Unloaded fastfile theboxexperience_patch
+PMem_Free( theboxexperience_patch, 1 )
+Unloaded fastfile theboxexperience
+PMem_Free( theboxexperience, 0 )
+Unloaded fastfile localized_theboxexperience
+PMem_Free( localized_theboxexperience, 0 )
+Loading fastfile localized_theboxexperience
+Database: Assets Sync Started
+Loading fastfile 'localized_theboxexperience'
+used 8.63 MB memory in DB alloc
+Database: Assets Sync Finished
+Loading fastfile theboxexperience_patch
+Database: Assets Sync Started
+Loading fastfile 'theboxexperience_patch'
+used 1.25 MB memory in DB alloc
+Database: Assets Sync Finished
+Loading fastfile theboxexperience
+Loading fastfile 'theboxexperience'
+used 61.68 MB memory in DB alloc
+Waited 306 msec for asset 'maps/theboxexperience.d3dbsp' of type 'col_map_mp'.
+----------------------
+Game: G_SetupWeaponDef
+----------------------
+animscripts/traverse/wall_hop_zombieLoading script scripts/sp/callbacks.gsc...
+Script scripts/sp/callbacks.gsc loaded successfully.
+Loading script scripts/sp/zm_spawn_fix.gsc...
+Script scripts/sp/zm_spawn_fix.gsc loaded successfully.
+Error: Could not load xanim "ai_flamethrower_crouch_pain".
+Error: Could not load xanim "ai_flamethrower_stand_pain".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_leg".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_head".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_chest".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_arm".
+Error: Could not load xanim "ai_bonzai_buddy_fail_rear".
+Error: Could not load xanim "ai_bonzai_buddy_fail_front".
+Error: Could not load xanim "ai_bonzai_enemy_fail_rear".
+Error: Could not load xanim "ai_bonzai_enemy_fail_right".
+Error: Could not load xanim "ai_bonzai_enemy_fail_left".
+Error: Could not load xanim "ai_bonzai_enemy_fail_front".
+Error: Could not load xanim "ai_flamethrower_crouch_death".
+Error: Could not load xanim "ai_flamethrower_stand_death".
+Error: Could not load xanim "ai_flamethrower_death_b".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_success".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_fail".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_intro".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_impact".
+Error: Could not load xanim "ai_bonzai_enemy_success_rear".
+Error: Could not load xanim "ai_bonzai_enemy_success_front".
+Error: Could not load xanim "ai_bonzai_buddy_success_rear".
+Error: Could not load xanim "ai_bonzai_buddy_success_right".
+Error: Could not load xanim "ai_bonzai_buddy_success_left".
+Error: Could not load xanim "ai_bonzai_buddy_success_front".
+Error: Could not load xanim "ai_flamethrower_stand_2_crouch".
+Error: Could not load xanim "ai_flamethrower_crouch_2_stand".
+Error: Could not load xanim "ai_flamethrower_crouch_turn90r".
+Error: Could not load xanim "ai_flamethrower_crouch_turn90l".
+Error: Could not load xanim "ai_flamethrower_turn180".
+Error: Could not load xanim "ai_flamethrower_turn135r".
+Error: Could not load xanim "ai_flamethrower_turn135l".
+Error: Could not load xanim "ai_flamethrower_turn90r".
+Error: Could not load xanim "ai_flamethrower_turn90l".
+Error: Could not load xanim "ai_flamethrower_turn45r".
+Error: Could not load xanim "ai_flamethrower_turn45l".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_5".
+Error: Could not load xanim "ai_flamethrower_aim_5".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_a_alert_v1".
+Error: Could not load xanim "ai_flamethrower_stand_idle_alert_v1".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_8".
+Error: Could not load xanim "ai_flamethrower_aim_8".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_2".
+Error: Could not load xanim "ai_flamethrower_aim_2".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_6".
+Error: Could not load xanim "ai_flamethrower_aim_6".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_4".
+Error: Could not load xanim "ai_flamethrower_aim_4".
+Error: Could not load xanim "ai_mg_shoulder_run".
+Error: Could not load xanim "ai_bonzai_sprint_d".
+Error: Could not load xanim "ai_bonzai_sprint_c".
+Error: Could not load xanim "ai_bonzai_sprint_b".
+Error: Could not load xanim "ai_bonzai_sprint_a".
+Error: Could not load xanim "ai_flamethrower_combatrun_c".
+Error: Could not load xanim "ai_flamethrower_crouch_twitch".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_b".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_a".
+Error: Could not load xanim "ai_flamethrower_stand_twitch".
+Error: Could not load xanim "ai_flamethrower_stand_idle_casual_v1".
+Error: Could not load xanim "ai_mg_shoulder_run2crouch".
+Error: Could not load xanim "ai_mg_shoulder_crouch_idle".
+Error: Could not load xanim "ai_mg_shoulder_run2stand".
+Error: Could not load xanim "ai_mg_shoulder_stand_idle".
+Error: Could not load xanim "ai_flame_crouch_fire_center".
+Error: Could not load xanim "ai_flame_fire_center".
+Error: Could not load xanim "void_loop".
+Error: Could not load xanim "int_bonzai_attack_player_success".
+Error: Could not load xanim "int_bonzai_attack_player_fail".
+Error: Could not load xanim "int_bonzai_attack_player_intro".
+Error: Could not load xanim "int_bonzai_attack_player".
+Error: Could not load xanim "int_bonzai_attack_player_impact".
+Error: Could not load xanim "zombie_dog_run_pain_front".
+Error: Could not load xanim "zombie_dog_pain_hit_right".
+Error: Could not load xanim "zombie_dog_pain_hit_left".
+Error: Could not load xanim "zombie_dog_pain_hit_back".
+Error: Could not load xanim "german_shepard_run_pain_hit_front".
+Error: Could not load xanim "german_shepard_pain_hit_right".
+Error: Could not load xanim "german_shepard_pain_hit_left".
+Error: Could not load xanim "german_shepard_pain_hit_back".
+Error: Could not load xanim "german_shepard_pain_hit_front".
+Error: Could not load xanim "german_shepherd_walk".
+Error: Could not load xanim "german_shepherd_traverse_up_80".
+Error: Could not load xanim "german_shepherd_traverse_up_40".
+Error: Could not load xanim "german_shepherd_traverse_down_40".
+Error: Could not load xanim "german_shepherd_attack_player_miss_turnl".
+Error: Could not load xanim "german_shepherd_attack_player_miss_turnr".
+Error: Could not load xanim "german_shepherd_attack_ai_01_start_a".
+Error: Could not load xanim "german_shepherd_run_stop".
+Error: Could not load xanim "german_shepherd_run_jump_window_40".
+Error: Could not load xanim "german_shepherd_run_jump_40".
+Error: Could not load xanim "german_shepherd_run_attack_miss".
+Error: Could not load xanim "german_shepherd_run_attack_low".
+Error: Could not load xanim "german_shepherd_run_attack".
+Error: Could not load xanim "german_shepard_run_turn_180_right".
+Error: Could not load xanim "german_shepard_run_turn_180_left".
+Error: Could not load xanim "german_shepard_run_turn_90_right".
+Error: Could not load xanim "german_shepard_run_turn_90_left".
+Error: Could not load xanim "german_shepard_turn_180_right".
+Error: Could not load xanim "german_shepard_turn_180_left".
+Error: Could not load xanim "german_shepard_turn_90_right".
+Error: Could not load xanim "german_shepard_turn_90_left".
+Error: Could not load xanim "german_shepherd_run_lean_r".
+Error: Could not load xanim "german_shepherd_run_lean_l".
+Error: Could not load xanim "german_shepherd_run".
+Error: Could not load xanim "german_shepherd_run_start".
+Error: Could not load xanim "german_shepherd_attackidle_growl".
+Error: Could not load xanim "german_shepherd_attackidle_bark".
+Error: Could not load xanim "german_shepherd_attackidle".
+Error: Could not load xanim "german_shepherd_idle".
+Error: Could not load xanim "german_shepherd_attack_player_late".
+Error: Could not load xanim "german_shepherd_attack_look_up".
+Error: Could not load xanim "german_shepherd_look_up".
+Error: Could not load xanim "german_shepherd_attack_look_left".
+Error: Could not load xanim "german_shepherd_look_left".
+Error: Could not load xanim "german_shepherd_attack_look_right".
+Error: Could not load xanim "german_shepherd_look_right".
+Error: Could not load xanim "german_shepherd_attack_look_down".
+Error: Could not load xanim "german_shepherd_look_down".
+Error: Could not load xanim "p_makinraid_hatch".
+Error: Could not load xanim "crew_sherman_passenger9_combatidle_player".
+Error: Could not load xanim "crew_sherman_passenger8_combatidle_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character9_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character5_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character4_player".
+Error: Could not load xanim "p_flak1_tag2_idle".
+Error: Could not load xanim "pb_prone_crawl_right_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_left_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_back_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_hold_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_right_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_left_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_back_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_satchel".
+Error: Could not load xanim "pb_hold_run_left_satchel".
+Error: Could not load xanim "pb_hold_run_right_satchel".
+Error: Could not load xanim "pb_hold_run_back_satchel".
+Error: Could not load xanim "pb_hold_run_satchel".
+Error: Could not load xanim "pb_sprint_hold_satchel".
+Error: Could not load xanim "pb_crouch_hold_idle_satchel".
+Error: Could not load xanim "pb_hold_idle_satchel".
+Error: Could not load xanim "pb_prone_hold_satchel".
+Error: Could not load xanim "pt_hold_prone_throw_satchel".
+Error: Could not load xanim "pt_hold_throw_satchel".
+ERROR: Pathnode (Path) at (-672 160 16) is in solid
+ERROR: Pathnode (Path) at (-1040 -288 -2224) is in solid
+------- Game Initialization -------
+gamename: Plutonium T4 Singleplayer (r3904)
+gamedate: Feb  6 2024
+Initializing game at 03/09/24 23:47:48 -0500
+Current uptime: 00:03:18
+-----------------------------------
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/electrocution.shock'
+Error: Could not load xmodel "zombie_zapper_cagelight_red".
+Error: Could not load xmodel "zombie_zapper_cagelight_green".
+Error: Could not load xmodel "lights_indlight_on".
+Error: Could not load xmodel "lights_milit_lamp_single_int_on".
+Error: Could not load xmodel "lights_tinhatlamp_on".
+Error: Could not load xmodel "lights_berlin_subway_hat_0".
+Error: Could not load xmodel "lights_berlin_subway_hat_50".
+Error: Could not load xmodel "lights_berlin_subway_hat_100".
+Error: Could not load xmodel "collision_geo_32x32x128".
+fraggrenade: WEAPON_FRAGGRENADE
+Error: Could not load rawfile "shock/zombie_death.shock".
+Error: couldn't open 'shock/zombie_death.shock'.
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/dog_bite.shock'
+'0' is not a valid value for dvar 'bg_shock_viewKickPeriod'
+  Domain is any number from 0.001 to 1000
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/tank_mantle.shock'
+'0' is not a valid value for dvar 'bg_shock_soundFadeInTime'
+  Domain is any number from 0.001 to 1000
+'0' is not a valid value for dvar 'bg_shock_soundFadeOutTime'
+  Domain is any number from 0.001 to 1000
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/chaplincheat.shock'
+napalmblob: WEAPON_SMOKE
+napalmbloblight: WEAPON_SMOKE
+syrette: WEAPON_SYRETTE
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/default.shock'
+mk2_frag: WEAPON_FRAGGRENADE
+stielhandgranate: WEAPON_FRAGGRENADE
+zombie_cymbal_monkey: PATCH_ZOMBIE_MONKEY
+zombie_bo2_perk_bottles: WEAPON_ZOMBIE_PERK_BOTTLE
+zombie_knuckle_crack: WEAPON_ZOMBIE_PERK_BOTTLE
+zombie_bowie_flourish: WEAPON_ZOMBIE_PERK_BOTTLE
+-----------------------------------
+Going to CS_ZOMBIE from 2 for [hi:)]kjuuki
+0:[hi:)]kjuuki EXE_DISCONNECTED
+SV_ClientNewClientState: newClientState 0 10
+Hitch warning: 1407 msec frame time
+Going from CS_ZOMBIE to CS_FREE for client #0
+Removing xuid 0 (clientNum 0) from session
+Couldn't find  in the party list
+User with id 1719429 successfully authenticated.
+Letting player with userid 1719429 into the server because the challenge verification completed successfully.
+SV_DirectConnect()
+Client 0 connecting with 198250 challenge ping from 192.168.1.254:28964
+Not a lan address!
+Got IV 155189248 from client!
+Decryption of auth ticket failed.Server: Set client 0 pbguid to 1719429
+Going from CS_FREE to CS_CONNECTED for  (num 0 guid 1719429)
+Received packet 0 of stats data
+Received packet 1 of stats data
+Received packet 2 of stats data
+Received packet 3 of stats data
+Received packet 4 of stats data
+Received packet 5 of stats data
+Received packet 6 of stats data
+SV_ClientNewClientState: newClientState 0 6
+kjuuki : dropped gamestate, resending
+SV_ExecuteClientMessage: serverId: 32, client serverId: 0
+SV_SendClientGameState() for kjuuki
+Going from CS_CONNECTED to CS_CLIENTLOADING for kjuuki
+--
+DynEnt_WriteGameState wrote 2 bytes
+--
+Sending 24147 bytes in gamestate to client: 0
+SV_ClientNewClientState: newClientState 0 9
+Going from CS_CLIENTLOADING to CS_ACTIVE for kjuuki
+SV_ClientNewClientState: newClientState 0 10
+Rcon from 127.0.0.1:54611:
+status
+Rcon from 127.0.0.1:54612:
+say
+Rcon from 127.0.0.1:61391:
+status
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+Rcon from 127.0.0.1:54987:
+status
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+^1AI (entity 491, origin 228.7 -688.8 -0.7) couldn't find path to goal.
+Rcon from 127.0.0.1:63060:
+status
+Rcon from 127.0.0.1:63069:
+status
+Error: Unable to set last round results for client num: 0
+map_rotate...
+
+"sv_mapRotation" is:"map theboxexperience"
+
+"sv_mapRotationCurrent" is:""
+
+Setting map: theboxexperience.
+g_gametype cmp is not a valid gametype, defaulting to dm
+Database: Assets Sync Started
+Database: Assets Sync Finished
+ShutdownGame:
+------------------------------------------------------------
+------ Server Initialization ------
+Server: theboxexperience
+Database: Assets Sync Started
+Database: Assets Sync Finished
+Database: Assets Sync Started
+Database: Assets Sync Finished
+Unloaded fastfile theboxexperience_patch
+PMem_Free( theboxexperience_patch, 1 )
+Unloaded fastfile theboxexperience
+PMem_Free( theboxexperience, 0 )
+Unloaded fastfile localized_theboxexperience
+PMem_Free( localized_theboxexperience, 0 )
+Loading fastfile localized_theboxexperience
+Database: Assets Sync Started
+Loading fastfile 'localized_theboxexperience'
+used 8.63 MB memory in DB alloc
+Database: Assets Sync Finished
+Loading fastfile theboxexperience_patch
+Database: Assets Sync Started
+Loading fastfile 'theboxexperience_patch'
+used 1.25 MB memory in DB alloc
+Database: Assets Sync Finished
+Loading fastfile theboxexperience
+Loading fastfile 'theboxexperience'
+used 61.68 MB memory in DB alloc
+Waited 301 msec for asset 'maps/theboxexperience.d3dbsp' of type 'col_map_mp'.
+----------------------
+Game: G_SetupWeaponDef
+----------------------
+animscripts/traverse/wall_hop_zombieLoading script scripts/sp/callbacks.gsc...
+Script scripts/sp/callbacks.gsc loaded successfully.
+Loading script scripts/sp/zm_spawn_fix.gsc...
+Script scripts/sp/zm_spawn_fix.gsc loaded successfully.
+Error: Could not load xanim "ai_flamethrower_crouch_pain".
+Error: Could not load xanim "ai_flamethrower_stand_pain".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_leg".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_head".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_chest".
+Error: Could not load xanim "ai_flamethrower_wounded_stand_arm".
+Error: Could not load xanim "ai_bonzai_buddy_fail_rear".
+Error: Could not load xanim "ai_bonzai_buddy_fail_front".
+Error: Could not load xanim "ai_bonzai_enemy_fail_rear".
+Error: Could not load xanim "ai_bonzai_enemy_fail_right".
+Error: Could not load xanim "ai_bonzai_enemy_fail_left".
+Error: Could not load xanim "ai_bonzai_enemy_fail_front".
+Error: Could not load xanim "ai_flamethrower_crouch_death".
+Error: Could not load xanim "ai_flamethrower_stand_death".
+Error: Could not load xanim "ai_flamethrower_death_b".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_success".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_fail".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_intro".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player".
+Error: Could not load xanim "ai_bonzai_enemy_attack_player_impact".
+Error: Could not load xanim "ai_bonzai_enemy_success_rear".
+Error: Could not load xanim "ai_bonzai_enemy_success_front".
+Error: Could not load xanim "ai_bonzai_buddy_success_rear".
+Error: Could not load xanim "ai_bonzai_buddy_success_right".
+Error: Could not load xanim "ai_bonzai_buddy_success_left".
+Error: Could not load xanim "ai_bonzai_buddy_success_front".
+Error: Could not load xanim "ai_flamethrower_stand_2_crouch".
+Error: Could not load xanim "ai_flamethrower_crouch_2_stand".
+Error: Could not load xanim "ai_flamethrower_crouch_turn90r".
+Error: Could not load xanim "ai_flamethrower_crouch_turn90l".
+Error: Could not load xanim "ai_flamethrower_turn180".
+Error: Could not load xanim "ai_flamethrower_turn135r".
+Error: Could not load xanim "ai_flamethrower_turn135l".
+Error: Could not load xanim "ai_flamethrower_turn90r".
+Error: Could not load xanim "ai_flamethrower_turn90l".
+Error: Could not load xanim "ai_flamethrower_turn45r".
+Error: Could not load xanim "ai_flamethrower_turn45l".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_5".
+Error: Could not load xanim "ai_flamethrower_aim_5".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_a_alert_v1".
+Error: Could not load xanim "ai_flamethrower_stand_idle_alert_v1".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_8".
+Error: Could not load xanim "ai_flamethrower_aim_8".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_2".
+Error: Could not load xanim "ai_flamethrower_aim_2".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_6".
+Error: Could not load xanim "ai_flamethrower_aim_6".
+Error: Could not load xanim "ai_flamethrower_crouch_aim_4".
+Error: Could not load xanim "ai_flamethrower_aim_4".
+Error: Could not load xanim "ai_mg_shoulder_run".
+Error: Could not load xanim "ai_bonzai_sprint_d".
+Error: Could not load xanim "ai_bonzai_sprint_c".
+Error: Could not load xanim "ai_bonzai_sprint_b".
+Error: Could not load xanim "ai_bonzai_sprint_a".
+Error: Could not load xanim "ai_flamethrower_combatrun_c".
+Error: Could not load xanim "ai_flamethrower_crouch_twitch".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_b".
+Error: Could not load xanim "ai_flamethrower_crouch_idle_a".
+Error: Could not load xanim "ai_flamethrower_stand_twitch".
+Error: Could not load xanim "ai_flamethrower_stand_idle_casual_v1".
+Error: Could not load xanim "ai_mg_shoulder_run2crouch".
+Error: Could not load xanim "ai_mg_shoulder_crouch_idle".
+Error: Could not load xanim "ai_mg_shoulder_run2stand".
+Error: Could not load xanim "ai_mg_shoulder_stand_idle".
+Error: Could not load xanim "ai_flame_crouch_fire_center".
+Error: Could not load xanim "ai_flame_fire_center".
+Error: Could not load xanim "void_loop".
+Error: Could not load xanim "int_bonzai_attack_player_success".
+Error: Could not load xanim "int_bonzai_attack_player_fail".
+Error: Could not load xanim "int_bonzai_attack_player_intro".
+Error: Could not load xanim "int_bonzai_attack_player".
+Error: Could not load xanim "int_bonzai_attack_player_impact".
+Error: Could not load xanim "zombie_dog_run_pain_front".
+Error: Could not load xanim "zombie_dog_pain_hit_right".
+Error: Could not load xanim "zombie_dog_pain_hit_left".
+Error: Could not load xanim "zombie_dog_pain_hit_back".
+Error: Could not load xanim "german_shepard_run_pain_hit_front".
+Error: Could not load xanim "german_shepard_pain_hit_right".
+Error: Could not load xanim "german_shepard_pain_hit_left".
+Error: Could not load xanim "german_shepard_pain_hit_back".
+Error: Could not load xanim "german_shepard_pain_hit_front".
+Error: Could not load xanim "german_shepherd_walk".
+Error: Could not load xanim "german_shepherd_traverse_up_80".
+Error: Could not load xanim "german_shepherd_traverse_up_40".
+Error: Could not load xanim "german_shepherd_traverse_down_40".
+Error: Could not load xanim "german_shepherd_attack_player_miss_turnl".
+Error: Could not load xanim "german_shepherd_attack_player_miss_turnr".
+Error: Could not load xanim "german_shepherd_attack_ai_01_start_a".
+Error: Could not load xanim "german_shepherd_run_stop".
+Error: Could not load xanim "german_shepherd_run_jump_window_40".
+Error: Could not load xanim "german_shepherd_run_jump_40".
+Error: Could not load xanim "german_shepherd_run_attack_miss".
+Error: Could not load xanim "german_shepherd_run_attack_low".
+Error: Could not load xanim "german_shepherd_run_attack".
+Error: Could not load xanim "german_shepard_run_turn_180_right".
+Error: Could not load xanim "german_shepard_run_turn_180_left".
+Error: Could not load xanim "german_shepard_run_turn_90_right".
+Error: Could not load xanim "german_shepard_run_turn_90_left".
+Error: Could not load xanim "german_shepard_turn_180_right".
+Error: Could not load xanim "german_shepard_turn_180_left".
+Error: Could not load xanim "german_shepard_turn_90_right".
+Error: Could not load xanim "german_shepard_turn_90_left".
+Error: Could not load xanim "german_shepherd_run_lean_r".
+Error: Could not load xanim "german_shepherd_run_lean_l".
+Error: Could not load xanim "german_shepherd_run".
+Error: Could not load xanim "german_shepherd_run_start".
+Error: Could not load xanim "german_shepherd_attackidle_growl".
+Error: Could not load xanim "german_shepherd_attackidle_bark".
+Error: Could not load xanim "german_shepherd_attackidle".
+Error: Could not load xanim "german_shepherd_idle".
+Error: Could not load xanim "german_shepherd_attack_player_late".
+Error: Could not load xanim "german_shepherd_attack_look_up".
+Error: Could not load xanim "german_shepherd_look_up".
+Error: Could not load xanim "german_shepherd_attack_look_left".
+Error: Could not load xanim "german_shepherd_look_left".
+Error: Could not load xanim "german_shepherd_attack_look_right".
+Error: Could not load xanim "german_shepherd_look_right".
+Error: Could not load xanim "german_shepherd_attack_look_down".
+Error: Could not load xanim "german_shepherd_look_down".
+Error: Could not load xanim "p_makinraid_hatch".
+Error: Could not load xanim "crew_sherman_passenger9_combatidle_player".
+Error: Could not load xanim "crew_sherman_passenger8_combatidle_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character9_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character5_player".
+Error: Could not load xanim "crew_lvt4_peleliu1_character4_player".
+Error: Could not load xanim "p_flak1_tag2_idle".
+Error: Could not load xanim "pb_prone_crawl_right_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_left_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_back_hold_satchel".
+Error: Could not load xanim "pb_prone_crawl_hold_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_right_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_left_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_back_satchel".
+Error: Could not load xanim "pb_crouch_hold_run_satchel".
+Error: Could not load xanim "pb_hold_run_left_satchel".
+Error: Could not load xanim "pb_hold_run_right_satchel".
+Error: Could not load xanim "pb_hold_run_back_satchel".
+Error: Could not load xanim "pb_hold_run_satchel".
+Error: Could not load xanim "pb_sprint_hold_satchel".
+Error: Could not load xanim "pb_crouch_hold_idle_satchel".
+Error: Could not load xanim "pb_hold_idle_satchel".
+Error: Could not load xanim "pb_prone_hold_satchel".
+Error: Could not load xanim "pt_hold_prone_throw_satchel".
+Error: Could not load xanim "pt_hold_throw_satchel".
+ERROR: Pathnode (Path) at (-672 160 16) is in solid
+ERROR: Pathnode (Path) at (-1040 -288 -2224) is in solid
+------- Game Initialization -------
+gamename: Plutonium T4 Singleplayer (r3904)
+gamedate: Feb  6 2024
+Initializing game at 03/09/24 23:48:32 -0500
+Current uptime: 00:04:02
+-----------------------------------
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/electrocution.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/electrocution.shock'
+Error: Could not load xmodel "zombie_zapper_cagelight_red".
+Error: Could not load xmodel "zombie_zapper_cagelight_green".
+Error: Could not load xmodel "lights_indlight_on".
+Error: Could not load xmodel "lights_milit_lamp_single_int_on".
+Error: Could not load xmodel "lights_tinhatlamp_on".
+Error: Could not load xmodel "lights_berlin_subway_hat_0".
+Error: Could not load xmodel "lights_berlin_subway_hat_50".
+Error: Could not load xmodel "lights_berlin_subway_hat_100".
+Error: Could not load xmodel "collision_geo_32x32x128".
+fraggrenade: WEAPON_FRAGGRENADE
+Error: Could not load rawfile "shock/zombie_death.shock".
+Error: couldn't open 'shock/zombie_death.shock'.
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/zombie_death.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/level_end.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/flashbang.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/dog_bite.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/dog_bite.shock'
+'0' is not a valid value for dvar 'bg_shock_viewKickPeriod'
+  Domain is any number from 0.001 to 1000
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/pain.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/death.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/explosion.shock'
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/tank_mantle.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/tank_mantle.shock'
+'0' is not a valid value for dvar 'bg_shock_soundFadeInTime'
+  Domain is any number from 0.001 to 1000
+'0' is not a valid value for dvar 'bg_shock_soundFadeOutTime'
+  Domain is any number from 0.001 to 1000
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/chaplincheat.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/chaplincheat.shock'
+napalmblob: WEAPON_SMOKE
+napalmbloblight: WEAPON_SMOKE
+syrette: WEAPON_SYRETTE
+WARNING: unknown dvar 'bg_shock_volume_full_vol' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_music' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ambience' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_voice' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_pis_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_smg_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_1st' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_rfl_3rd' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_decay' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_projectile' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_explosion' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_vehicle' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_character' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_physics' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_hvy_wpn' in file 'shock/default.shock'
+WARNING: unknown dvar 'bg_shock_volume_ui' in file 'shock/default.shock'
+mk2_frag: WEAPON_FRAGGRENADE
+stielhandgranate: WEAPON_FRAGGRENADE
+zombie_cymbal_monkey: PATCH_ZOMBIE_MONKEY
+zombie_bo2_perk_bottles: WEAPON_ZOMBIE_PERK_BOTTLE
+zombie_knuckle_crack: WEAPON_ZOMBIE_PERK_BOTTLE
+zombie_bowie_flourish: WEAPON_ZOMBIE_PERK_BOTTLE
+-----------------------------------
+Going to CS_ZOMBIE from 2 for [hi:)]kjuuki
+0:[hi:)]kjuuki EXE_DISCONNECTED
+SV_ClientNewClientState: newClientState 0 10
+Hitch warning: 1395 msec frame time
+Going from CS_ZOMBIE to CS_FREE for client #0
+Removing xuid 0 (clientNum 0) from session
+Couldn't find  in the party list
+User with id 1719429 successfully authenticated.
+Letting player with userid 1719429 into the server because the challenge verification completed successfully.
+SV_DirectConnect()
+Client 0 connecting with 242450 challenge ping from 192.168.1.254:28964
+Not a lan address!
+Got IV 155189248 from client!
+Decryption of auth ticket failed.Server: Set client 0 pbguid to 1719429
+Going from CS_FREE to CS_CONNECTED for  (num 0 guid 1719429)
+Received packet 0 of stats data
+Received packet 1 of stats data
+Received packet 2 of stats data
+Received packet 3 of stats data
+Received packet 4 of stats data
+Received packet 5 of stats data
+Received packet 6 of stats data
+SV_ClientNewClientState: newClientState 0 6
+kjuuki : dropped gamestate, resending
+SV_ExecuteClientMessage: serverId: 48, client serverId: 0
+SV_SendClientGameState() for kjuuki
+Going from CS_CONNECTED to CS_CLIENTLOADING for kjuuki
+--
+DynEnt_WriteGameState wrote 2 bytes
+--
+Sending 24142 bytes in gamestate to client: 0
+SV_ClientNewClientState: newClientState 0 9
+Going from CS_CLIENTLOADING to CS_ACTIVE for kjuuki
+SV_ClientNewClientState: newClientState 0 10
+Rcon from 127.0.0.1:55900:
+status
+Rcon from 127.0.0.1:49520:
+status
+Rcon from 127.0.0.1:49527:
+status
+Rcon from 127.0.0.1:58665:
+status
+Rcon from 127.0.0.1:56497:
+status
+Rcon from 127.0.0.1:56498:
+say
+Rcon from 127.0.0.1:49181:
+status
+Rcon from 127.0.0.1:59263:
+status
+Rcon from 127.0.0.1:49541:
+status
+Rcon from 127.0.0.1:51809:
+status
+Rcon from 127.0.0.1:61619:
+status
+Rcon from 127.0.0.1:60519:
+status
+Rcon from 127.0.0.1:60520:
+status
+Rcon from 127.0.0.1:59563:
+status
+Rcon from 127.0.0.1:54180:
+status
+Rcon from 127.0.0.1:51689:
+status
+Rcon from 127.0.0.1:51690:
+status
+Rcon from 127.0.0.1:49173:
+status
+Rcon from 127.0.0.1:49174:
+say
+Rcon from 127.0.0.1:49177:
+status
+Rcon from 127.0.0.1:59691:
+status
+Rcon from 127.0.0.1:63115:
+status
+Rcon from 127.0.0.1:63116:
+status
+Rcon from 127.0.0.1:49660:
+status
+Rcon from 127.0.0.1:63107:
+status
+Rcon from 127.0.0.1:57297:
+status
+Rcon from 127.0.0.1:57298:
+status
+Rcon from 127.0.0.1:59227:
+status
+Rcon from 127.0.0.1:50985:
+status
+Rcon from 127.0.0.1:62286:
+status
+Rcon from 127.0.0.1:53777:
+status
+Rcon from 127.0.0.1:53778:
+say
+Rcon from 127.0.0.1:53779:
+status
+Rcon from 127.0.0.1:56841:
+status
+Rcon from 127.0.0.1:55613:
+status
+Rcon from 127.0.0.1:54570:
+status
+Rcon from 127.0.0.1:54571:
+status
+Rcon from 127.0.0.1:51233:
+status
+Rcon from 127.0.0.1:55677:
+status
+Rcon from 127.0.0.1:64901:
+status
+Rcon from 127.0.0.1:55438:
+status
+Rcon from 127.0.0.1:63543:
+status
+Rcon from 127.0.0.1:58665:
+status
+Rcon from 127.0.0.1:58668:
+status
+Rcon from 127.0.0.1:58669:
+say
+Rcon from 127.0.0.1:49669:
+status
+Rcon from 127.0.0.1:51388:
+status
+Rcon from 127.0.0.1:51389:
+status
+Rcon from 127.0.0.1:61392:
+status
+Rcon from 127.0.0.1:61393:
+status
+Rcon from 127.0.0.1:59160:
+status
+Rcon from 127.0.0.1:59161:
+status
+Rcon from 127.0.0.1:50315:
+status
+Rcon from 127.0.0.1:57983:
+status
+Rcon from 127.0.0.1:65459:
+status
+Rcon from 127.0.0.1:65460:
+status
+Rcon from 127.0.0.1:63937:
+status
+Rcon from 127.0.0.1:63938:
+say
+Rcon from 127.0.0.1:54937:
+status
+Rcon from 127.0.0.1:63353:
+status
+Rcon from 127.0.0.1:63354:
+status
+Going to CS_ZOMBIE from 4 for [hi:)]kjuuki
+0:[hi:)]kjuuki EXE_DISCONNECTED
+Ending game as no players are left alive...
+script runtime error: potential infinite loop in script - killing thread.
+@ maps/_utility::array_remove
+Rcon from 127.0.0.1:64931:
+status
+Hitch warning: 2502 msec frame time
+Going from CS_ZOMBIE to CS_FREE for client #0
+Removing xuid 0 (clientNum 0) from session
+Couldn't find  in the party list
+Rcon from 127.0.0.1:49813:
+status
+Rcon from 127.0.0.1:49814:
+status
